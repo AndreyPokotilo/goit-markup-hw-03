@@ -1,0 +1,225 @@
+:root {
+    --primary-text-color: #212121;
+    --text-color: #757575;
+    --accent-color: #2196F3;
+    --primari-white-color: #ffffff;
+}
+
+body {
+    background-color: var(--primari-white-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Шапка сайта*/
+
+.logo {
+    color: var(--accent-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+
+}
+
+.text-logo {
+    color: black;
+}
+
+.site-nav .link-site.current {
+    color: var(--accent-color);
+}
+
+
+
+.link-auth:hover,
+.link-site:hover {
+    color: var(--accent-color);
+}
+
+.link-site:focus .link-auth:focus {
+    color: var(--accent-color);
+}
+
+.link-site {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+
+}
+
+.link-auth {
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+
+}
+
+
+/*Герои*/
+.hero {
+    background-color: #2F303A;
+
+}
+
+.hero-text {
+    color: var(--primari-white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+}
+
+.button-hero {
+    background-color: var(--accent-color);
+    color: var(--primari-white-color);
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.2;
+    cursor: pointer;
+}
+
+.button-hero:hover,
+.button-hero:focus {
+    background-color: #188CE8;
+}
+
+
+/*Преимущества*/
+.benefits-title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.benefits-text {
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/*Примеры работ*/
+.work {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+}
+
+/*Команда*/
+.team {
+    background-color: #F5F4FA;
+}
+
+.team-list {
+    background-color: var(--primari-white-color);
+}
+
+.team-title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+}
+
+.name-title {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.position {
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+/*Футер*/
+.footer {
+    background-color: #2F303A;
+
+}
+
+.link-footer:hover,
+.link-footer:focus {
+    color: var(--accent-color);
+}
+
+.logo-footer {
+    color: var(--accent-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.2;
+
+}
+
+.text-logo2 {
+    color: #FFFFFF;
+}
+
+.address-text {
+    color: var(--primari-white-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.link-footer {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+
+}
+
+/*Портфолио фильтр*/
+.button-filter {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--primary-text-color);
+    background-color: #F5F4FA;
+    cursor: pointer;
+
+}
+
+.filter .button-filter.current {
+    background-color: var(--accent-color);
+    color: var(--primari-white-color);
+}
+
+.button-filter:hover,
+.button-filter:focus {
+    background-color: var(--accent-color);
+    color: var(--primari-white-color);
+}
+
+/*Сайты*/
+.name-portfolio {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: var(--primary-text-color);
+}
+
+.work-portfolio {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    color: var(--text-color);
+}
