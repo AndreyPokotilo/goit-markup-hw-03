@@ -1,9 +1,11 @@
+
 :root {
     --primary-text-color: #212121;
     --text-color: #757575;
     --accent-color: #2196F3;
     --primari-white-color: #ffffff;
 }
+
 
 body {
     background-color: var(--primari-white-color);
@@ -64,18 +66,34 @@ a {
 
 }
 
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    outline: 2px solid #2f640c;
+}
+
+.list {
+padding: 0px;
+margin: 0px;
+}
+
 
 /*Герои*/
 .hero {
     background-color: #2F303A;
-
+    text-align: center;
+    margin-bottom: 94px;
 }
 
 .hero-text {
+    margin-top: 0px;
+    margin-bottom: 30px;
     color: var(--primari-white-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
+    
 }
 
 .button-hero {
@@ -86,6 +104,13 @@ a {
     font-size: 16px;
     line-height: 1.2;
     cursor: pointer;
+    padding: 10px 32px;
+    border-radius: 4px;
+    text-align: center;
+    border: none;
+    min-width: 200px;
+    min-height: 50px;
+    margin-bottom: 200px;
 }
 
 .button-hero:hover,
@@ -95,7 +120,17 @@ a {
 
 
 /*Преимущества*/
+
+.benefits-list {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+
 .benefits-title {
+    margin-top: 0px;
+    margin-bottom: 10px;
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 14px;
@@ -103,6 +138,8 @@ a {
 }
 
 .benefits-text {
+    margin-top: 0px;
+    margin-bottom: 94px;
     color: var(--text-color);
     font-weight: 400;
     font-size: 14px;
@@ -111,10 +148,18 @@ a {
 
 /*Примеры работ*/
 .work {
+    margin-top: 0px;
+    margin-bottom: 50px;
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
+    text-align: center;
+}
+
+.work-list {
+    margin-top: 0px;
+    margin-bottom: 94px;
 }
 
 /*Команда*/
@@ -131,6 +176,9 @@ a {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 50px;
 }
 
 .name-title {
@@ -187,7 +235,7 @@ a {
 }
 
 /*Портфолио фильтр*/
-.button-filter {
+.filter button {
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
@@ -195,18 +243,43 @@ a {
     color: var(--primary-text-color);
     background-color: #F5F4FA;
     cursor: pointer;
-
+    padding: 6px 22px;
+    border-radius: 4px;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    min-height: 38px;
 }
 
-.filter .button-filter.current {
+.filter .current {
     background-color: var(--accent-color);
     color: var(--primari-white-color);
 }
 
-.button-filter:hover,
-.button-filter:focus {
+.filter button:hover,
+.filter button:focus {
     background-color: var(--accent-color);
     color: var(--primari-white-color);
+}
+
+.button-all {
+    min-width: 73px;
+}
+
+.button-site {
+    min-width: 128px;
+}
+
+.button-app {
+    min-width: 145px;
+}
+
+.button-desighn {
+    min-width: 103px;
+}
+
+.button-marketing {
+    min-width: 130px;
 }
 
 /*Сайты*/
