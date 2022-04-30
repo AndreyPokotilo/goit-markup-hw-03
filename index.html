@@ -19,19 +19,20 @@
 
 <body>
     <!--Шапка сайта-->
-    <header class="page-header">
-    <div class="container">
-        <nav>
+    <header>
+    <div class="container header">
+        <nav class="nav">
             <a href="index.html" class="logo" lang="en">Web<span class="text-logo">Studio</span></a>
             <ul class="site-nav list">
-                <li> <a href="./index.html" class="link-site current">Студия</a></li>
-                <li> <a href="./portfolio.html" class="link-site">Портфолио</a></li>
-                <li> <a href="./contact.html" class="link-site">Контакты</a></li>
+                <li class="site"> <a href="./index.html" class="link-site current">Студия</a></li>
+                <li class="site"> <a href="./portfolio.html" class="link-site">Портфолио</a></li>
+                <li class="site"> <a href="./contact.html" class="link-site">Контакты</a></li>
             </ul>
         </nav>
+
         <ul class="auth-nav list">
-            <li><a href="mailto:info@devstudio.com" class="link-auth">info@devstudio.com</a></li>
-            <li> <a href="tell:+380961111111" class="link-auth">+38 096 111 11 11</a> </li>
+            <li class="site"><a href="mailto:info@devstudio.com" class="link-auth">info@devstudio.com</a></li>
+            <li class="site"> <a href="tell:+380961111111" class="link-auth">+38 096 111 11 11</a> </li>
         </ul>
     </div>
     </header>
@@ -48,32 +49,33 @@
     
           <!--Преимущества-->
     <section class="benefits">
-        <div class="container">
+        
             <h2 hidden>Для сеймантики</h2>
-            
+            <div class="container">
             <ul class="benefits-list">
-                <li>
+
+                <li class="element">
                     <h3 class="benefits-title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
                     <p class="benefits-text">
                         Идейные соображения, а также начало повседневной работы по формированию позиции.
                     </p>
                 </li>
             
-                <li>
+                <li class="element">
                     <h3 class="benefits-title">ПУНКТУАЛЬТНОСТЬ</h3>
                     <p class="benefits-text">
                         Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
                     </p>
                 </li>
             
-                <li>
+                <li class="element">
                     <h3 class="benefits-title">ПЛАНИРОВАНИЕ</h3>
                     <p class="benefits-text">
                         Равным образом консультация с широким активом в значительной степени обуславливает.
                     </p>
                 </li>
             
-                <li>
+                <li class="element">
                     <h3 class="benefits-title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
                     <p class="benefits-text">
                         Значимость этих проблем настолько очевидна, что реализация плановых заданий.
@@ -92,14 +94,14 @@
         <h2 class="work">Чем мы занимаемся</h2>
 
         <ul class="work-list">
-            <li>
-                <img src="img/box2.jpg" alt="photo box2" width="370" height="294">
+            <li class="foto">
+                <img class="image" src="img/box2.jpg" alt="photo box2" width="370" height="294">
             </li>
-            <li>
-                <img src="img/box1.jpg" alt="photo box1" width="370" height="294">
+            <li class="foto">
+                <img class="image" src="img/box1.jpg" alt="photo box1" width="370" height="294">
             </li>
-            <li>
-                <img src="img/box3.jpg" alt="photo box3" width="370" height="294">
+            <li class="foto">
+                <img class="image" src="img/box3.jpg" alt="photo box3" width="370" height="294">
             </li>
         </ul>
         </div>
@@ -110,31 +112,31 @@
 
     <!--Команда-->
     <section class="team">
-        <div class="container">
-            <h2 class="team-title">Наша команда</h2>
-            
-            <ul>
+        
+        <h2 class="team-title">Наша команда</h2>
+        <div class="container album">
+            <ul class=" team-album">
                 <!--Igor-->
                 <li class="team-list">
-                    <img src="img/Igor1.jpg" alt="photo igor" width="270" height="260">
+                    <img class="portret" src="img/Igor1.jpg" alt="photo igor" width="270" height="260">
                     <h3 class="name-title">Игорь Демьяненко</h3>
                     <p class="position">Product Designer</p>
                 </li>
                 <!--Olga-->
                 <li class="team-list">
-                    <img src="img/Olga2.jpg" alt="photo olga" width="270" height="260">
+                    <img class="portret" src="img/Olga2.jpg" alt="photo olga" width="270" height="260">
                     <h3 class="name-title">Ольга Репина</h3>
                     <p class="position">Frontend Developer</p>
                 </li>
                 <!--Nikolay-->
                 <li class="team-list">
-                    <img src="img/Nikolay3.jpg" alt="photo nikalay" width="270" height="260">
+                    <img class="portret" src="img/Nikolay3.jpg" alt="photo nikolay" width="270" height="260">
                     <h3 class="name-title">Николай Тарасов</h3>
                     <p class="position">Marketing</p>
                 </li>
                 <!--Mikhail-->
                 <li class="team-list">
-                    <img src="img/Mikhail4.jpg" alt="photo mikhail" width="270" height="260">
+                    <img class="portret" src="img/Mikhail4.jpg" alt="photo mikhail" width="270" height="260">
                     <h3 class="name-title">Михаил Ермаков</h3>
                     <p class="position">UI Designer</p>
                 </li>
