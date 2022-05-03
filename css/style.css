@@ -276,12 +276,16 @@ margin-left: 30px;
     display: block;
 }
 
+.team-info {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .name-title {
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
-    padding-top: 30px;
     margin-top: 0px;
     margin-bottom: 10px;
 }
@@ -293,20 +297,16 @@ margin-left: 30px;
     line-height: 1.2;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-bottom: 30px;
+    
 }
 
 /*Футер*/
 .footer {
     background-color: #2F303A;
-
-}
-
-.finish {
     padding-top: 60px;
-    padding-bottom: 60px;
-    
+    padding-bottom: 60px;   
 }
+
 
 .link-footer:hover,
 .link-footer:focus {
